@@ -1,0 +1,127 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+#topBar {
+}
+*,*::before, *::after {
+	margin:0;
+	padding: 0;
+}
+body{
+	background-color: #c7c7b3;
+	color: #646060;
+	font-size: 1.5em;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+h1,h2,h3,h4{
+	color: black;
+	font-size: 2em;
+}
+
+#logo {
+	
+	
+}
+#navbar-style {
+	float:right;
+	
+}
+
+.carousel-inner, .bigIMG{
+	margin:0;
+	
+}
+#navbarStyle {
+	height: 100%;
+	
+}
+#navbarStyle2 {
+	height: 100%;
+	
+}#container2, .containerAfterImage {
+	margin-top:2em;
+}
+.carousel-inner, .bigIMG{
+	-webkit-box-shadow: 0px 29px 50px 5px rgba(0,0,0,0.54), 0px 8px 18px 5px rgba(0,0,0,0.51); 
+box-shadow: 0px 29px 50px 5px rgba(0,0,0,0.54), 0px 8px 18px 5px rgba(0,0,0,0.51);
+}
+.footerStyle{
+	position: relative;
+	bottom: 0;
+	margin: 0;
+	background-color: black;
+	
+}
+.backgroundImage {
+	
+
+}
+#bgIMG1 {
+  	height: 100%; /* You must set a specified height */
+  	background-position: center; /* Center the image */
+  	background-repeat: no-repeat; /* Do not repeat the image */
+  	background-size: cover; /* Resize the background image to cover the entire container */
+}
+.styleFooter{
+	background-color: black;
+}
+
+.navbar-style{
+	border:none;
+	background-color: inherit;
+}
+.myList{
+	margin: 0;
+	margin-bottom: 2em;
+	padding: 0;
+	list-style-position: inside;
+	font-size: 1em;
+}
+.mylist, .mylist li{
+	margin-left:0;
+	padding-left:0;
+}
+.produktsist{
+	background-color:white;
+	padding-bottom: 3em;
+}
+
+.produktTab{
+	border: 1px solid black;
+	border-radius: 10px;
+	margin:10px;
+	padding: 5px;
+	background-color: white;
+	-webkit-box-shadow: 0px 29px 50px 5px rgba(0,0,0,0.54), 0px 8px 18px 5px rgba(0,0,0,0.51); 
+box-shadow: 0px 29px 50px 5px rgba(0,0,0,0.54), 0px 8px 18px 5px rgba(0,0,0,0.51);
+	 transition: all .2s ease-in-out;
+}
+.produktTab:hover{
+	 transform: scale(1.1);
+}
+.topBar{
+	padding-top: 1.2em;
+}.footerULStyle {
+}
+.footerULStyle{
+	list-style-position: inside;
+	list-style-type: none;
+	
+}
+.footerULStyle li a{
+	text-decoration: none;
+	transition: 0.5s;
+	color:grey;
+}
+.footerULStyle li a:hover{
+	text-decoration: none;
+	color:white;
+}
+.footerStyle{
+	padding-top:1em;
+	font-size: 0.6em;
+}
+.produktTab img{
+	padding-bottom: 1em;
+}
