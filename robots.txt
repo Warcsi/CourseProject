@@ -1,0 +1,15 @@
+User-agent: *
+
+Disallow: /readme*/
+
+User-agent: *
+
+Disallow: /images/
+
+User-agent: *
+
+Disallow: /css/
+
+User-agent: *
+
+Disallow: /js/
